@@ -24,7 +24,8 @@ This patcher contains a preinstall.sh that allows users to run the installer to 
 
 Using the terminal, cd to the bigmac directory.
 
-usage
+usage:
+Download Big Sur with https://github.com/corpnewt/gibMacOS. Change the catalog to the developer version and download Big Sur.
 
 `sudo ./preinstall.sh`
 
