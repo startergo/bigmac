@@ -24,7 +24,7 @@ bootArgs=$(echo $bootArgs | cut -d " " -f2-)
 echo "nvram check"
 echo $bootArgs
 
-default="-no_compat_check -v"
+default="-v -no_compat_check debug=0x164 keepsyms=1"
 
 read -p "
 🖥  Set Boot Args: [enter = default]: " default
